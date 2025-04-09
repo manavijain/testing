@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="parallelexec">
+    <classes>
+      <class name="com.selenium.prj1.testsuite_tc1"/>
+      <class name="com.selenium.prj1.testsuite_tc2"/>
+    </classes>
+  </test> <!-- parallelexec -->
+</suite> <!-- Suite -->
